@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1, "name": "День", "depsId": null
+  },
+  {
+    "id": 2, "name": "Ночь", "depsId": null
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "prettier",
+    "plugin:prettier/recommended",
+    "plugin:import/typescript",
+    "plugin:import/recommended",
+    "plugin:vue/base",
+    "eslint:recommended",
+    "plugin:vue/vue3-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser"
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "lf"
+      }
+    ],
+    "linebreak-style": 0,
+    "semi": ["error", "never"],
+    "@typescript-eslint/semi": "off",
+    "no-unexpected-multiline": "error",
+    "quote-props": "off",
+    "comma-dangle": "off",
+    "import/no-extraneous-dependencies": "off",
+    "vue/require-default-prop": "off",
+    "vue/max-len": "off",
+    "vue/multi-word-component-names": "off",
+    "import/prefer-default-export": "off",
+    "space-before-function-paren": "off",
+    "consistent-return": 0,
+    "@typescript-eslint/no-this-alias": 0,
+    "@typescript-eslint/no-inferrable-types": 0,
+    "indent": 0,
+    "no-mixed-operators": 0,
+    "func-call-spacing": 0,
+    "keyword-spacing": 1,
+    "unicorn/prefer-includes": 0,
+    "no-useless-constructor": 0,
+    "no-multiple-empty-lines": ["error", { "max": 2 }],
+    "@typescript-eslint/no-require-imports": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "no-use-before-define": 0,
+    "import/resolver": [
+      "off",
+      {
+        "node": {
+          "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        }
+      }
+    ],
+    "vue/max-attributes-per-line": ["error", {
+      "singleline": {
+        "max": 3
+      },      
+      "multiline": {
+        "max": 3
+      }
+    }],
+    "import/no-named-as-default": 0,
+    "import/no-cycle": 1,
+    "import/default": 0,
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          ["sibling", "parent"],
+          "index",
+          "unknown"
+        ],
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ],
+    "no-console": ["warn", { "allow": ["info", "error", "warn"] }],
+    "vue/attribute-hyphenation": 0,
+    "vue/v-on-event-hyphenation": 0,
+    "no-unused-expressions": "warn",
+    "vue/no-multiple-template-root": 0
+  }
+}

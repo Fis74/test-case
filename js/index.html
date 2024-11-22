@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<form id="selectionForm" class="form">
+    <label for="city">Город:</label>
+    <select id="city">
+        <option value="default">Выберите город</option>
+    </select>
+
+    <label for="workshop">Цех:</label>
+    <select id="workshop" disabled>
+        <option value="default">Выберите цех</option>
+    </select>
+
+    <label for="employee">Сотрудник:</label>
+    <select id="employee" disabled>
+        <option value="default">Выберите сотрудника</option>
+    </select>
+
+    <label for="brigade">Бригада:</label>
+    <select id="brigade" disabled>
+        <option value="default">Выберите бригаду</option>
+    </select>
+
+    <label for="shift">Смена:</label>
+    <select id="shift" disabled>
+        <option value="default">Выберите смену</option>
+    </select>
+
+    <button class="button" type="button" id="saveButton" onclick="saveToCookie()" disabled>Сохранить</button>
+    <div class="message" id="message"></div>
+</form>
+
+<script defer src="./main.js" ></script>
+</body>
+</html>

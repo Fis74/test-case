@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1, "name": "Москва", "depsId": null
+  },
+  {
+    "id": 2, "name": "Санкт-Петербург", "depsId": null
+  },
+  {
+    "id": 3, "name": "Челябинск", "depsId": null
+  }
+]

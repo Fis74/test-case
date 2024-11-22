@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1, "name": "Бригада 1", "depsId": null
+  },
+  {
+    "id": 2, "name": "Бригада 2", "depsId": null
+  },
+  {
+    "id": 3, "name": "Бригада 3", "depsId": null
+  },
+  {
+    "id": 4, "name": "Бригада 4", "depsId": null
+  },
+  {
+    "id": 5, "name": "Бригада 5", "depsId": null
+  }
+]
